@@ -1,8 +1,8 @@
-export default getListStudentIdsn (career) {
-    if (!Array.isArray(career)) {
+export default getListStudentIdsn (Students) {
+    if (!Array.isArray(Students)) {
         return [];
     }
 
-    const careerids = career.map((career) => career.id);
-    return careerids;
+    const Studentsids = Students.map((Students) => Students.id);
+    return Studentsids;
 }
